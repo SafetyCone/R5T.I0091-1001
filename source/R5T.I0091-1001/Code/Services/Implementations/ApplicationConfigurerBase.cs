@@ -1,16 +1,16 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 
 using Microsoft.AspNetCore.Builder;
 
 using R5T.D0091;
 using R5T.D1001;
-using R5T.D1001.A001;
+using R5T.D1001.A001;using R5T.T0064;
 
 
 namespace R5T.I0091_1001
-{
-    public abstract class ApplicationConfigurerBase : IApplicationConfigurer
+{[ServiceImplementationMarker]
+    public abstract class ApplicationConfigurerBase : IApplicationConfigurer,IServiceImplementation
     {
         protected IServiceX ServiceX { get; }
 
