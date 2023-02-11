@@ -1,7 +1,7 @@
 using System;
 
 
-namespace R5T.I0091-1001.Construction
+namespace R5T.I0091_1001.Construction
 {
     static class Program
     {

@@ -10,7 +10,7 @@ namespace R5T.I0091_1001
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="ApplicationConfigurerBase"/> operation as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="ApplicationConfigurerBase"/> operation as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<TApplicationConfigurer> AddApplicationConfigurerAction<TApplicationConfigurer>(this IServiceAction _,
             IServiceAction<IServiceX> serviceXAction)
